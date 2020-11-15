@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(deepskyblue, lightskyblue);
+	text-align: center;
+}
+
+h1, h2{
+	font-family: 'Oswald', sans-serif;
+}
+
+header h1{
+	color: white;
+	margin: unset;
+	text-shadow: 0 0 1px #000000;
+}
+
+header img {
+	margin-top: 16px;
+}
+
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+footer{
+	background-color: lightskyblue;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+footer p {
+	margin: 0;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
