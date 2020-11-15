@@ -4,8 +4,11 @@ body{
 }
 
 header{
-    background-image: linear-gradient(deepskyblue, lightskyblue);
+    background-image: url("https://media1.giphy.com/media/cAbTPtE1NGEoyHdV9x/giphy.gif?cid=ecf05e47f053a602467c452d8fab3472ebe5cb57cac76dfe&rid=giphy.gif"), linear-gradient(deepskyblue, lightskyblue);
 	text-align: center;
+	/*for cloud position & size*/
+	background-size: 700px;
+	background-position: center;
 }
 
 h1, h2{
